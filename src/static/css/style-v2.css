@@ -1,0 +1,440 @@
+/*Style chính từ ngày 12/12/2022*/
+
+/*Các ô thống kê ở số lượng status ở đầu trang*/
+.count-status-top-3388 {
+  background-color: #ccc;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+/*Các ô ở trong table*/
+.count-status-top-3388.v2 {
+  font-size: 10px;
+  padding: 3px 18px;
+}
+.count-status-top-3388.v3 {
+  font-size: 8px;
+  padding: 3px 15px;
+  margin-right: 2px;
+}
+
+
+
+/*Cấu hình Padding,Margin chung*/
+.frame-content-common-2022 {
+  padding: 20px 20px 20px 20px;
+  padding: 20px 10px 20px 20px;
+  background-color: #fff;
+}
+
+
+/*Bộ lọc*/
+.frame-item-filter-2022 {
+  margin-right: 5px;
+}
+@media screen and (max-width: 1024px) {
+  .frame-item-filter-2022.v2 {
+    margin-top: 8px;
+  }
+}
+.frame-item-filter-2022 .title {
+  line-height: 28px;
+  color: #000728;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.frame-line-filter-2022 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.frame-item-filter-2023 {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.frame-line-filter-2023 {
+  margin-bottom: 15px;
+}
+
+/*Nút tìm kiếm ở bộ lọc*/
+.frame-btn-seach-2022 {
+  background: #0688ee;
+  border-radius: 5px;
+  padding: 8px 35px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.frame-btn-seach-2022:hover {
+  opacity: 0.8;
+}
+
+/*Date*/
+.frame-date-common-2022.v2 {
+  margin-right: 5px;
+}
+
+/*Custome tabel default của Element*/
+.table-element-custom-2022 {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.table-element-custom-2022 .el-table {
+  font-size: 12px;
+}
+/*Đè hover vào bảng hiện mầu khác*/
+.table-element-custom-2022 .el-table--enable-row-hover .el-table__body tr:hover > td.el-table__cell {
+  background-color: #f0f8ff;
+}
+/*Đè cái Stiper*/
+.table-element-custom-2022 .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+  background-color: #f6f8ff;
+}
+/*Đè cái header*/
+.table-element-custom-2022 .el-table th.el-table__cell > .cell {
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+}
+.table-element-custom-2022 .el-table thead.is-group th.el-table__cell {
+  background-color: #207cdc;
+  padding: 6px 0px;
+}
+/*Đè Line hight*/
+.table-element-custom-2022 .el-table .el-table__row .cell {
+  line-height: 14px;
+}
+
+/*Phân trang mặc định*/
+.china-panigation-1988 {
+}
+.china-panigation-1988 .number,
+.china-panigation-1988 button {
+  background-color: #fff !important;
+  color: #3f92d1 !important;
+  font-weight: 400;
+  border: 1px solid #D9EAFF;
+}
+.china-panigation-1988 .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #0688EE !important;
+  color: #fff !important;
+}
+.china-panigation-1988 .el-pagination.is-background .btn-next,
+.china-panigation-1988 .el-pagination.is-background .btn-prev,
+.china-panigation-1988 .el-pagination.is-background .el-pager li {
+  border: 1px solid #D9EAFF;
+  margin: -1px;
+}
+
+
+/*Hover các nút*/
+.frame-hover-2022:hover {
+  opacity: 0.8;
+}
+
+/*Poiter các nút*/
+.frame-poiter-2022 {
+  cursor: pointer;
+}
+
+
+/*Tùy chỉnh các dialog mà ko có nút xóa*/
+.frame-dialog-no-close-1988  .el-dialog {
+  border-radius: 10px;
+}
+.frame-dialog-no-close-1988 .el-dialog__header {
+  padding: 0px;
+}
+.frame-dialog-no-close-1988 .el-dialog__body {
+  padding: 0px;
+}
+.frame-dialog-no-close-1988 .header-1988 {
+  background-color: #df4747;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: #fff;
+  height: 37px;
+  line-height: 37px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.frame-dialog-no-close-1988 .header-1988-blue {
+  background-color: #0688ee;
+}
+.frame-dialog-no-close-1988 .header-1988 span {
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.frame-dialog-no-close-1988 .body-1988 {
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px;
+}
+
+.frame-dialog-no-close-1988 .btn-common {
+  padding: 6px 20px;
+  background-color: #e8f3ff;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.frame-dialog-no-close-1988 .btn-danger {
+  background-color: #df4747;
+  color: #fff;
+}
+.frame-dialog-no-close-1988 .btn-success {
+  background-color: #26b01c;
+  color: #fff;
+}
+.frame-dialog-no-close-1988 .btn-warning {
+  background-color: #f09920;
+  color: #fff;
+}
+.frame-dialog-no-close-1988 .btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.frame-dialog-no-close-1988 .btn-common.disable {
+  pointer-events: none;
+}
+.frame-dialog-no-close-1988 .btn-common.disable span {
+  margin-left: 5px;
+}
+
+
+
+/*Custome tabel default của Element - Bảng đơn giản bth*/
+.table-element-custom-2022-v2 .el-table {
+  font-size: 12px;
+}
+.table-element-custom-2022-v2 .el-table th.el-table__cell {
+  color: #fff;
+  background: #207cdc;
+  font-weight: 700;
+}
+.table-element-custom-2022-v2 .el-table td.el-table__cell div {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000728;
+  word-break: break-word;
+}
+/*Đè cái Striper*/
+.table-element-custom-2022-v2 .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+  background-color: #f6f8ff;
+}
+
+
+
+/*Bộ nút Thêm mới, quay lại, hủy CRUD*/
+
+.btn-crud-2022 {
+  padding: 6px 40px;
+  background-color: #e8f3ff;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 60px;
+  text-align: center;
+}
+.btn-danger {
+  background-color: #df4747;
+  color: #fff;
+}
+.btn-success {
+  background-color: #26b01c;
+  color: #fff;
+}
+.btn-info {
+  background-color: #0688ee;
+  color: #fff;
+}
+.btn-warning {
+  background-color: #f09920;
+  color: #fff;
+}
+.btn-xanhlo {
+  background-color: #45B4CE;
+  color: #fff;
+}
+.btn-goback {
+  background-color: #e8f3ff;
+  color: #207cdc;
+}
+
+.btn-crud-2022.disable {
+  pointer-events: none;
+}
+.btn-crud-2022.disable span {
+  margin-left: 5px;
+}
+
+
+
+
+/*Bộ tiêu đề chính ở các màn thêm kiện, chi tiết kiện*/
+/*Các nút tiêu đề*/
+/*Ví dụ: Thông tin khách hàng, tìm kiếm nâng cao, thống kê*/
+.frame-content-title-2022-v2 {
+  margin-bottom: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+.frame-content-title-2022-v2 .img-wrap {
+  background: #e8f3ff;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame-content-title-2022-v2 .title {
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #0688ee;
+}
+
+.frame-content-title-2023 {
+  margin-bottom: 0px;
+}
+.frame-content-title-2023 span {
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #207cdc;
+}
+
+
+/*Ô input upload ảnh*/
+.upload-avatar {
+  display: none;
+}
+
+
+/*Custome tabel default của Element - Bảng đơn giản bth*/
+/*Dùng ở trang List màn giao hàng*/
+
+.table-element-custom-2022-v3 .el-table {
+  font-size: 12px;
+}
+.table-element-custom-2022-v3 .el-table th.el-table__cell {
+  color: #fff;
+  background: #207cdc;
+  font-weight: 400;
+}
+.table-element-custom-2022-v3 .el-table td.el-table__cell div {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000728;
+}
+/*Đè cái Striper*/
+.table-element-custom-2022-v3 .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+  background-color: #f6f8ff;
+}
+
+
+/*Bảng ở các phần show lịch sử*/
+.table-element-custom-2022-v-history .el-table {
+  font-size: 12px;
+}
+.table-element-custom-2022-v-history .el-table th.el-table__cell {
+  color: #000728;
+  background: #f1f1f1;
+  font-weight: 700;
+}
+.table-element-custom-2022-v-history .el-table td.el-table__cell div {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000728;
+}
+
+
+
+/*Bảng custom tự viết phục vụ cho các màn chi tiết ở phần giao hàng*/
+.table-td-show-detail-v1-2023 .icon-item {
+  flex-grow: 1;
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  height: auto;
+
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #000728;
+}
+.table-td-show-detail-v1-2023 .title-wrap {
+  background: #207cdc;
+}
+.table-td-show-detail-v1-2023 .title-wrap .icon-item {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.table-td-show-detail-v1-2023 .line-wrap {
+  border-left: 1px solid #bdd6ee;
+}
+.table-td-show-detail-v1-2023 .line-wrap .icon-item {
+  border-bottom: 1px solid #bdd6ee;
+  border-right: 1px solid #bdd6ee;
+}
+
+
+/*Đè input mà tự động formart*/
+.custom-inpupt-formart-2023 {
+  -webkit-appearance: none;
+  background-color: #FFF;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #DCDFE6;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  padding: 0 15px;
+  transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  border: 1px solid #3F92D1 !important;
+  border-radius: 5px;
+}
+.custom-inpupt-formart-2023.disable {
+  background-color: #f6f7fa;
+  color: #000;
+}

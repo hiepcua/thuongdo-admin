@@ -1,0 +1,125 @@
+/*CSS theo màn hình mà nó dùng chung được*/
+
+/*Màn CUSTOMER*/
+.customer-common {
+  padding: 20px 20px;
+}
+.customer-common .item-search {
+  margin-right: 5px;
+  width: 140px;
+}
+.customer-common .item-search-2 {
+  width: 175px;
+}
+.customer-common .item-search-3 {
+  width: 190px;
+}
+.customer-common .input-seach-wrap-1 {
+  margin-bottom: 18px;
+}
+.customer-common .input-seach-wrap-2 {
+  margin-bottom: 10px;
+}
+.customer-common .input-seach-wrap-3 {
+  margin-bottom: 10px;
+}
+.customer-common .item-search-date {
+  margin-right: 0px;
+}
+.customer-common .item-search-3 input {
+  width: 190px;
+}
+.customer-common-table {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+/*Đè hover vào bảng hiện mầu khác*/
+.customer-common-table .el-table--enable-row-hover .el-table__body tr:hover > td.el-table__cell {
+  background-color: #f0f8ff;
+}
+
+/*Đè cái header*/
+.customer-common-table .el-table th.el-table__cell > .cell {
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+}
+.customer-common-table .el-table thead.is-group th.el-table__cell {
+  background-color: #207cdc;
+  padding: 6px 0px;
+}
+
+/*Đè font chữ mặc định*/
+.customer-common-table .el-table td.el-table__cell div {
+  font-size: 12px;
+}
+
+
+/*Đè 3 cái bảng màn khách hàng: giá, tiềm năng với cấp độ*/
+/*Đè 3 cái bảng màn khách hàng: giá, tiềm năng với cấp độ*/
+
+/*Heder bảng*/
+.customer-common-table-2 .el-table th.el-table__cell {
+  background-color: #207cdc;
+  color: #fff;
+  font-size: 14px;
+}
+/*Nút Vip icon*/
+.customer-common-table-2 .vip-icon {
+  padding: 0px 5px;
+  border-radius: 2px;
+  background: #dd3f18;
+  font-size: 10px;
+  margin-left: 10px;
+  width: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  height: 16px;
+  line-height: 16px;
+}
+.customer-common-table-2  .--el-rate-void-color {
+  color: #767676;
+}
+/*Nút tiền*/
+.customer-common-table-2 .count-green {
+  color: #00a962;
+  font-weight: 500;
+}
+
+
+
+
+
+/*Màn đơn hàng có cái thống kê ở trên đầu dùng chung dc*/
+
+.order-list-statistic {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 40px;
+  background-color: #f6f8ff;
+  border-bottom: 1px solid #bdd6ee;
+
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.order-list-statistic-item {
+  margin-right: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1025px) {
+  .order-list-statistic-item {
+    margin-right: 20px;
+  }
+}
+.order-list-statistic-item .title {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #767676;
+}
